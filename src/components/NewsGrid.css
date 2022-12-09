@@ -1,17 +1,5 @@
-.App{
-    background-color:rgb(35, 118, 185);
-}
-.left-side{
-    width:75%;
-    overflow:auto;
-    float:left;
-}
-.right-side{
-    /* background-color: red; */
-    width:25%;
-    height:800px;
-    overflow:auto;
-    float:right;
+.main-body{
+    background-color: aliceblue;
 }
 .grid * {
     box-sizing: border-box;
@@ -24,7 +12,7 @@
     row-gap: 30px;
     padding: 20px 0;
 }
-/* Кол-во блоков на разных экранах */
+
 @media only screen and (max-width: 1200px) {
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
